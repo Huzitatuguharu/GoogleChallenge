@@ -1,0 +1,24 @@
+/* chromeのdefoultのmerginは8px */
+
+* {
+      margin: 0px;
+      padding: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+}
+
+/* aタグのスタイルを削除 */
+a{
+  text-decoration: none;
+}
+/* 訪問隅のサイトのテキストカラー */
+a:visited {
+      color: #333;
+      text-decoration: none;
+}
