@@ -86,10 +86,17 @@ export default {
 </script>
 
 <style scoped>
+a:hover {
+  text-decoration: underline;
+}
+
+.material-icons:hover {
+  opacity: 0.75;
+}
+
 .header {
+  background-color: #fff;
   width: 100%;
-  /* 背景色 */
-  background-color: rgb(255, 177, 160);
   padding: 6px;
   height: 60px;
   /* 横並び */
