@@ -9,8 +9,8 @@
           target="_blank"
           href="https://about.google/?fg=1&utm_source=google-JP&utm_medium=referral&utm_campaign=hp-header"
         >
-          Googleについて</a
-        >
+          Googleについて
+        </a>
       </p>
       <p class="header_left_item">
         <a
@@ -18,8 +18,8 @@
           target="_blank"
           href="https://store.google.com/JP?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ja-JP"
         >
-          ストア</a
-        >
+        ストア
+        </a>
       </p>
     </div>
 
@@ -33,8 +33,8 @@
             target="_blank"
             href=" https://www.shonenjump.com/j/rensai/naruto.html"
           >
-            Gmail</a
-          >
+            Gmail
+           </a>
         </p>
         <p class="header_right_item">
           <a
@@ -42,24 +42,30 @@
             target="_blank"
             href="https://www.google.co.jp/imghp?hl=ja&authuser=0&ogbl"
           >
-            画像</a
-          >
+            画像
+          </a>
         </p>
       </div>
 
       <!-- rightのleft -->
       <div class="header_right_personal">
-        <p class="header_right_item">
+        <p class="header_right_item link_apps">
           <a
             rel="noopener noreferrer"
             target="_blank"
             href=" https://3lion.younganimal.com/"
           >
-            <!-- マテリアルアイコン -->
-            <span class="material-icons">
-              apps
-            </span></a
-          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon_apps"
+              viewBox="0 0 512 512"
+            >
+              <title>Apps</title>
+              <path
+                d="M104 160a56 56 0 1156-56 56.06 56.06 0 01-56 56zM256 160a56 56 0 1156-56 56.06 56.06 0 01-56 56zM408 160a56 56 0 1156-56 56.06 56.06 0 01-56 56zM104 312a56 56 0 1156-56 56.06 56.06 0 01-56 56zM256 312a56 56 0 1156-56 56.06 56.06 0 01-56 56zM408 312a56 56 0 1156-56 56.06 56.06 0 01-56 56zM104 464a56 56 0 1156-56 56.06 56.06 0 01-56 56zM256 464a56 56 0 1156-56 56.06 56.06 0 01-56 56zM408 464a56 56 0 1156-56 56.06 56.06 0 01-56 56z"
+              />
+            </svg>
+          </a>
         </p>
 
         <p class="header_right_item">
@@ -71,8 +77,8 @@
             <!-- マテリアルアイコン -->
             <span class="material-icons">
               sentiment_satisfied_alt
-            </span></a
-          >
+            </span>
+          </a>
         </p>
       </div>
     </div>
@@ -98,7 +104,7 @@ a:hover {
   background-color: #fff;
   width: 100%;
   padding: 6px;
-  height: 60px;
+  height: 48px;
   /* 横並び */
   display: flex;
   align-items: center;
@@ -137,5 +143,11 @@ a:hover {
 
 .header_right_personal:last-child {
   margin-right: 20px;
+}
+
+.icon_apps {
+  width: 24px;
+  height: 24px;
+  fill: #5f6368;
 }
 </style>
