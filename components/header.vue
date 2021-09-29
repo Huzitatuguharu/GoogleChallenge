@@ -9,8 +9,8 @@
           target="_blank"
           href="https://about.google/?fg=1&utm_source=google-JP&utm_medium=referral&utm_campaign=hp-header"
         >
-          Googleについて</a
-        >
+          Googleについて
+        </a>
       </p>
       <p class="header_left_item">
         <a
@@ -18,8 +18,8 @@
           target="_blank"
           href="https://store.google.com/JP?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ja-JP"
         >
-          ストア</a
-        >
+        ストア
+        </a>
       </p>
     </div>
 
@@ -33,8 +33,8 @@
             target="_blank"
             href=" https://www.shonenjump.com/j/rensai/naruto.html"
           >
-            Gmail</a
-          >
+            Gmail
+           </a>
         </p>
         <p class="header_right_item">
           <a
@@ -42,8 +42,8 @@
             target="_blank"
             href="https://www.google.co.jp/imghp?hl=ja&authuser=0&ogbl"
           >
-            画像</a
-          >
+            画像
+          </a>
         </p>
       </div>
 
@@ -77,8 +77,8 @@
             <!-- マテリアルアイコン -->
             <span class="material-icons">
               sentiment_satisfied_alt
-            </span></a
-          >
+            </span>
+          </a>
         </p>
       </div>
     </div>
