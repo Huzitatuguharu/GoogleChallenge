@@ -18,7 +18,7 @@
           target="_blank"
           href="https://store.google.com/JP?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ja-JP"
         >
-        ストア
+          ストア
         </a>
       </p>
     </div>
