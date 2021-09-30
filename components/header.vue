@@ -100,15 +100,16 @@ a:hover {
   background-color: #fff;
   width: 100%;
   padding: 6px;
-  height: 48px;
+  min-height: 48px;
   /* 横並び */
   display: flex;
   align-items: center;
   /* 要素を左右に配置 */
   justify-content: space-between;
   /* 位置を固定する */
-  position: fixed;
   top: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
 }
 
 .header_right,

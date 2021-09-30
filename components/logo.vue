@@ -10,15 +10,15 @@ export default {
 }
 </script>
 <style scoped>
-.logobox {
+.logo_box {
   display: block;
   min-height: 92px;
-  margin: auto;
+  box-sizing: border-box;
 }
-
 img .logobox {
   max-width: 100%;
   object-fit: contain;
   width: auto;
+  min-height: 92px;
 }
 </style>

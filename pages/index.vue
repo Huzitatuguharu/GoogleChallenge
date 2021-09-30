@@ -20,14 +20,9 @@ export default {
   background-color: #fff;
   display: flex;
   margin: auto;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
   width: 100%;
-}
-
-.logo {
-  margin: 130px auto 0;
 }
 </style>

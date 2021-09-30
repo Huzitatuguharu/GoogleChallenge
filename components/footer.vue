@@ -60,10 +60,10 @@ export default {
 
 <style scope>
 .footer {
-  width: 100%;
+  min-width: 100%;
   background: #f2f2f2;
-  position: fixed;
   bottom: 0;
+  box-sizing: border-box;
 }
 
 .footer_top {
