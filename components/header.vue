@@ -115,7 +115,6 @@ a:hover {
 .header_left {
   display: flex;
   align-items: center;
-  /* marginが10px、paddingが10pxなので縦の余白は20px */
   gap: 0 10px;
 }
 
@@ -130,6 +129,7 @@ a:hover {
 
 .header_right_common {
   display: flex;
+  font-size: 13px;
   align-items: center;
   gap: 0 15px;
 }
@@ -146,8 +146,9 @@ a:hover {
 }
 
 .icon_apps {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   fill: #5f6368;
+  margin: 0 0 0 30px;
 }
 </style>

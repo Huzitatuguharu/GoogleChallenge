@@ -6,11 +6,6 @@
   </div>
 </template>
 
-.
-<style scoped>
-.wrapper {
-}
-</style>
 <script>
 import Header from '@/components/header.vue' // headerをインポート
 import Footer from '@/components/footer.vue' // footerをインポート
