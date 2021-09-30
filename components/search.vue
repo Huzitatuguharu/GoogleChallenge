@@ -8,6 +8,7 @@
       <div class="search_box_bottom_item" type="text" name="example">
         Google検索
       </div>
+      <!-- jsonplaceholderで取得したランダムな名前を表示する -->
       <div class="search_box_bottom_item" type="text" name="example">
         {{ posts.name }}
       </div>
@@ -18,9 +19,11 @@
 <script>
 import axios from 'axios'
 
+// ランダムな数字を作る
 const randnum = Math.floor(Math.random() * 10)
 console.log(randnum)
 
+// jsonplaceholderでランダムなユーザーの名前を取得
 export default {
   data() {
     return {
