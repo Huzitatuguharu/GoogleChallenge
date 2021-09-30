@@ -1,8 +1,19 @@
-{ // 保存時、ESlint を自動整形
+{
+  // 保存時、ESlint を自動整形
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  
   // Vetur のコード整形と Prettier がバッティングしないように無効化
   "vetur.format.enable": false,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "javascript.format.enable": false,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "html.format.endWithNewline": true,
+  "html.format.extraLiners": "",
 }

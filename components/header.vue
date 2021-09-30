@@ -18,11 +18,10 @@
           target="_blank"
           href="https://store.google.com/JP?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ja-JP"
         >
-        ストア
+          ストア
         </a>
       </p>
     </div>
-
     <!-- right -->
     <div class="header_right">
       <!-- rightのright -->
@@ -34,7 +33,7 @@
             href=" https://www.shonenjump.com/j/rensai/naruto.html"
           >
             Gmail
-           </a>
+          </a>
         </p>
         <p class="header_right_item">
           <a
@@ -46,7 +45,6 @@
           </a>
         </p>
       </div>
-
       <!-- rightのleft -->
       <div class="header_right_personal">
         <p class="header_right_item link_apps">
@@ -75,9 +73,7 @@
             href="https://www.amazon.co.jp/%E6%B9%AF%E7%A5%9E%E3%81%8F%E3%82%93%E3%81%AB%E3%81%AF%E5%8F%8B%E9%81%94%E3%81%8C%E3%81%84%E3%81%AA%E3%81%84-1-%E5%B0%91%E5%B9%B4%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E4%BD%90%E5%80%89-%E6%BA%96/dp/4091240208"
           >
             <!-- マテリアルアイコン -->
-            <span class="material-icons">
-              sentiment_satisfied_alt
-            </span>
+            <span class="material-icons">sentiment_satisfied_alt</span>
           </a>
         </p>
       </div>
@@ -88,7 +84,7 @@
 <script>
 export default {
   components: {}
-};
+}
 </script>
 
 <style scoped>
@@ -120,12 +116,16 @@ a:hover {
   display: flex;
   align-items: center;
   /* marginが10px、paddingが10pxなので縦の余白は20px */
-  gap: 0 20px;
+  gap: 0 10px;
 }
 
 /* leftの最初の要素だけ左側のpadding */
 .header_left_item:first-child {
   margin-left: 15px;
+}
+
+.header_left_item > a {
+  padding: 5px;
 }
 
 .header_right_common {
