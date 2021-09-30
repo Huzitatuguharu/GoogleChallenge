@@ -1,8 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="footer_top">
-      日本
-    </div>
+    <div class="footer_top">日本</div>
     <div class="footer_bottom">
       <div class="footer_bottom_left">
         <a
@@ -57,13 +55,12 @@
 <script>
 export default {
   components: {}
-};
+}
 </script>
 
 <style scope>
 .footer {
   width: 100%;
-  padding: 0 20px;
   background: #f2f2f2;
   position: fixed;
   bottom: 0;

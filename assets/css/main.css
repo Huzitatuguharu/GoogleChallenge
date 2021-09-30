@@ -1,8 +1,8 @@
 /* chromeのdefoultのmerginは8px */
 
 * {
-      margin: 0px;
-      padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -14,13 +14,11 @@ body {
 }
 
 /* aタグのスタイルを削除 */
-a{
+a {
   text-decoration: none;
 }
 /* 訪問隅のサイトのテキストカラー */
 a:visited {
-      color: #333;
-      text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
-
-
