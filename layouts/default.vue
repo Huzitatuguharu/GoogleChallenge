@@ -16,3 +16,15 @@ export default {
   }
 }
 </script>
+<style scoped>
+.wrapper {
+  overflow-y: auto;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+</style>

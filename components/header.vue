@@ -100,15 +100,13 @@ a:hover {
   background-color: #fff;
   width: 100%;
   padding: 6px;
-  height: 48px;
-  /* 横並び */
+  min-height: 48px;
   display: flex;
   align-items: center;
-  /* 要素を左右に配置 */
   justify-content: space-between;
-  /* 位置を固定する */
-  position: fixed;
   top: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
 }
 
 .header_right,
@@ -140,7 +138,6 @@ a:hover {
   gap: 0 20px;
 }
 /* rightの最後の要素だけ左側のpadding */
-
 .header_right_personal:last-child {
   margin-right: 20px;
 }
